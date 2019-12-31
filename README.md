@@ -15,8 +15,6 @@ Once it's started it will run until stopped (ctrl-c).
 ```
 ./busycpus [-t <cpu threads> -c <concurrency> -s <stride>]
 
-Example: ./busycpus -t 4 -t 8  (four threads with 8 workers per thread)
-
   -c int
   	Optional: set number of concurrent number of workers per thread; defaults to 2 per 
         logical CPU 
@@ -30,4 +28,21 @@ Example: ./busycpus -t 4 -t 8  (four threads with 8 workers per thread)
         worker mount of time to wait in milliseconds; defaults to 100 
 
   -h	print usage information
+```
+
+## Examples
+
+Default mode, it will swamp every CPU in the system:
+
+```
+$ ./busycpus 
+Starting 32 concurent workers, multiplexed over 8 CPU threads...
+Working: *****
+```
+Specify how many threads and concurent workers to use:
+
+```
+$ ./busycpus -t 2 -c 16
+Starting 16 concurent workers, multiplexed over 4 CPU threads...
+Working: *****
 ```
