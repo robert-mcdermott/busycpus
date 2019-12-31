@@ -9,7 +9,7 @@ A tool for generating heavy CPU loads for testing and analysis purposes.
 
 ## Usage
 
-By default, BusyCPU will use a thread per logical CPU on the system and 2 concurent workers per thread (should saturate the CPU of any system) but you can tune the thread count (-t), number of concurent workers per thread (-c) and the stride of each worker (-s) if needed.
+By default, BusyCPU will use a thread per logical CPU on the system and 4 concurent workers per thread (should saturate the CPU of any system) but you can tune the thread count (-t), number of concurent workers per thread (-c) and the stride of each worker (-s) if needed.
 Once it's started it will run until stopped (ctrl-c).
 
 ```
