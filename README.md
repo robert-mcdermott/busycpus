@@ -4,8 +4,8 @@ A tool for generating heavy CPU loads for testing and analysis purposes.
 
 ## Download
 
-- **Windows x64:** [busycpus.exe](https://github.com/robert-mcdermott/busycpus/blob/master/bin/busycpus.exe)
-- **Linux   x64:** [busycpus](https://github.com/robert-mcdermott/busycpus/blob/master/bin/busycpus)
+- **Windows x64:** [busycpus.exe](https://github.com/robert-mcdermott/busycpus/blob/master/bin/busycpus.exe?raw=true)
+- **Linux   x64:** [busycpus](https://github.com/robert-mcdermott/busycpus/blob/master/bin/busycpus?raw=true)
 
 ## Usage
 
