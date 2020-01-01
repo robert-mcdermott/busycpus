@@ -25,7 +25,7 @@ Once it's started it will run until stopped (ctrl-c).
 
   -s int
     	Optional: Specify the stride (numer or random sines to compute per interation) of each
-      worker; defaults to 1,000,000. 
+        worker; defaults to 1,000,000. 
 
   -h	print usage information
 ```
