@@ -24,7 +24,7 @@ Once it's started it will run until stopped (ctrl-c).
         CPUs in your system (default 4)
 
   -s int
-    	Optional: Specify the stride (numer or random sines to compute per interation) of each
+    	Optional: Specify the stride (number or random sines to compute per interation) of each
         worker; defaults to 1,000,000. 
 
   -h	print usage information
